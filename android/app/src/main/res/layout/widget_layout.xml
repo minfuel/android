@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="#1f303d">
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_horizontal"
+            android:padding="12dp"
+            android:text="--"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_counter"
+            android:layout_width="374dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/bt_update"
+            android:layout_below="@+id/tv_city"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginBottom="29dp"
+            android:gravity="center_horizontal"
+            android:padding="12dp"
+            android:text="--"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/bt_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="88dp"
+            android:layout_marginBottom="9dp"
+            android:text="Update Counter"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
